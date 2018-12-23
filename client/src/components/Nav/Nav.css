@@ -1,0 +1,17 @@
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
+
+.sign-up-button {
+    margin-left: 2em;
+}

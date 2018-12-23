@@ -1,0 +1,15 @@
+.item-checked {
+    text-decoration: line-through
+}
+.item-checked:hover {
+    text-decoration: line-through
+}
+li {
+    user-select: none;
+}
+
+#newTodoContent:empty:after {
+    content: "Insert a new todo here";
+    color: #dcdcdc;
+    
+}
